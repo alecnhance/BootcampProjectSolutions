@@ -1,17 +1,17 @@
 //
-//  WorkoutLogSolutionsApp.swift
-//  WorkoutLogSolutions
+//  WorkoutLogApp.swift
+//  WorkoutLog
 //
-//  Created by Alec Hance on 9/29/25.
+//  Created by Alec Hance on 7/27/25.
 //
 
 import SwiftUI
 
 @main
-struct WorkoutLogSolutionsApp: App {
+struct WorkoutLogApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogView()
         }
     }
 }
